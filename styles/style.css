@@ -8,10 +8,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     color:white;
-    background-color:#23263A;
-    
-    
-    
+    background-color:#23263A;    
 }
 
 header{
@@ -21,7 +18,9 @@ header{
     text-align: center;
     flex-direction: row;
     padding-left: 200px;
-    padding-right: 150px;   
+    padding-right: 150px; 
+    position: fixed;  
+    width: 100%;
 }
 .navmenu li{
     font-size: 15px;
