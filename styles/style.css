@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    background-color:#23263A;
+    
+    
+    
+}
+
+header{
+    background-color: #1f2235;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 150px;   
+}
+.navmenu li{
+    font-size: 15px;
+}
+
+.navmenu{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding:30px;
+
+}
+
+.logo{
+    width: 100px;
+    margin-top: 30px;
+}
+
+.navmenu li a{
+     text-decoration: none;
+     color: white;
+}
+
+.navmenu li a:hover{
+    color:#FF4A57;
+    transition:1s ;
+}
+.media ul{
+    color:white;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.media ul li{
+    border: 3px solid #FF4A57;
+    border-radius: 47%;
+    background:#1f2235 ;
+    font-size: 12px;
+    padding:10px;
+}
+
+.social{
+    list-style: none;
+}
+
+.social li:hover{
+    background-color: #FF4A57;
+}
+
+.homepage{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+
+.textcontent{
+    padding-top: 200px;
+}
+
+.textarea h1{
+    font-size: 40px;
+     padding-top: 35px;
+}
+
+.textarea p{
+    font-size: 20px;
+    width: 500px;
+}
+
+.picture{
+    padding-top: 100px;
+    height: 600px;
+    padding-right: 150px;
+}
+
+ .btn button{
+    padding:10px 30px;
+    border:2px solid #FF4A57;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+#portfolio{
+    background-color: #1f2235;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+#portfolio:hover{
+    background-color: #FF4A57;
+    color: #1f2235;
+
+}
+
+#play{
+    background-color: #FF4A57;   
+}
+
+
+
