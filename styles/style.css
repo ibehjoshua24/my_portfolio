@@ -1,4 +1,3 @@
-/*homepage section start here */
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +15,7 @@ main{
     scroll-behavior: smooth;
 }
 
+/*the homepage start here*/
 header{
     background-color: #1f2235;
     display:flex;
