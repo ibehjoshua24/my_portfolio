@@ -1,3 +1,4 @@
+/*homepage section start here */
 *{
     margin: 0;
     padding: 0;
@@ -8,7 +9,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     color:white;
-    background-color:#23263A;    
+    background-color:#23263A;
+}
+
+main{
+    scroll-behavior: smooth;
 }
 
 header{
@@ -17,26 +22,26 @@ header{
     justify-content: space-between;
     text-align: center;
     flex-direction: row;
-    padding-left: 200px;
-    padding-right: 150px; 
+    padding-left: 50px;
+    padding-right: 50px; 
     position: fixed;  
     width: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
 }
+
 .navmenu li{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .navmenu{
     display: flex;
-    gap: 30px;
+    gap: 40px;
     list-style: none;
-    padding:30px;
-
 }
 
 .logo{
-    width: 100px;
-    margin-top: 30px;
+    width: 120px;
 }
 
 .navmenu li a{
@@ -48,80 +53,164 @@ header{
     color:#FF4A57;
     transition:1s ;
 }
+
 .media ul{
     color:white;
     display: flex;
-    gap: 20px;
-    
-    
+    gap: 20px; 
+    list-style: none;  
 }
+
 .media ul li{
-    border: 3px solid #FF4A57;
-    border-radius: 47%;
+    border: 2px solid #FF4A57;
+    border-radius: 46%;
     background:#1f2235 ;
-    font-size: 12px;
-    padding:10px;
+    font-size: 20px;
+    padding:10px 12px;
 }
 
-.social{
-    list-style: none;
-}
-
-.social li:hover{
+.media ul li:hover{
     background-color: #FF4A57;
 }
 
 .homepage{
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .textcontent{
-    padding-top: 200px;
+    margin-top: 300px;
 }
 
 .textarea h1{
-    font-size: 40px;
-     padding-top: 35px;
+    font-size: 60px;
+    margin-top: 35px;
 }
 
 .textarea p{
-    font-size: 20px;
-    width: 500px;
+    font-size: 23px;
+    width: 550px;
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
 
 .picture{
-    padding-top: 100px;
-    height: 600px;
-    padding-right: 150px;
+    height: 650px;
+    margin-top: 200px;
 }
-
- .btn button{
-    padding:10px 30px;
+.btn button{
+    padding:15px 40px;
     border:2px solid #FF4A57;
-    border-radius: 20px;
+    border-radius: 30px;
     color: white;
-    margin-top: 20px;
-    
+    font-size: 15px;  
 }
 
 #portfolio{
     background-color: #1f2235;
     margin-right: 20px;
     transition: 1s;
+    font-weight: bold;
 }
 
 #portfolio:hover{
     background-color: #FF4A57;
-    color: #1f2235;
-
 }
 
 #play{
-    background-color: #FF4A57;   
+    background-color: #FF4A57;     
 }
+/*home section goes here */
+
+/*service section start here */
+.serviceintro{
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.service{
+    background-color: #1f2235;
+    padding-bottom: 100px;
+    padding-top: 120px;
+}
+
+.service h4{
+    margin-bottom: 10px;
+    color: #FF4A57;
+}
+
+.service h2{
+     margin-bottom:10px ;
+     font-size: 60px;
+}
+
+.servicebody{
+    font-size: 15px;
+    color: white;
+}
+
+.upbody{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 30px;
+    margin-bottom:30px ;
+    margin-right: 50px;
+}
+
+
+.serviced{
+    padding: 60px 60px 60px 30px;  
+    width: 350px;
+    background-color: #23263A ;
+    border-radius: 20px;
+    color: #FF4A57;
+}
+
+.lowbody{
+    display:flex;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 30px;
+    margin-right: 50px;
+}
+
+.service h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20PX;
+    color: #fff;
+}
+
+.service p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.serviced i {
+    font-size: 50px;
+    /* color: #FF4A57; */
+}
+
+
+.serviced:hover {
+    background-color: #FF4A57 ;
+    color:white !important;
+}
+/*service section goes here */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
